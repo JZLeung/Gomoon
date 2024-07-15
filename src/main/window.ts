@@ -16,8 +16,8 @@ import {
 import { is } from '@electron-toolkit/utils'
 import { autoUpdater } from 'electron-updater'
 
-import icon from '../../resources/icon.png?asset'
-import trayIcon from '../../resources/icon@20.png?asset'
+import icon from '../../icons/icon.ico?asset'
+import trayIcon from '../../icons/icon.ico?asset'
 
 import { loadAppConfig } from './models'
 import { getResourcesPath, quitApp } from './lib'
