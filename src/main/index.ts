@@ -1,7 +1,7 @@
 import { app, BrowserWindow, Menu, session } from 'electron'
 import { electronApp, optimizer } from '@electron-toolkit/utils'
 
-import icon from '../../resources/icon.png?asset'
+import icon from '../../icons/icon.png?asset'
 
 import { initAppEventsHandler } from './eventHandler'
 import { createWindow, showWindow } from './window'
